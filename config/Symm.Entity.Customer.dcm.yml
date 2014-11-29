@@ -1,0 +1,13 @@
+Symm\Entity\Customer:
+    type: entity
+    repositoryClass: Symm\Entity\Repository\CustomerRepository
+    id:
+        id:
+            type: integer
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+#        createdAt:
+#            type: datetime
